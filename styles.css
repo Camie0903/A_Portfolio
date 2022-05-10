@@ -63,3 +63,89 @@ ul{
     display: flex;
     margin-top: 29%;
 }
+
+.word_landing{
+    position: relative;
+    color: white;
+    display: flex;
+    margin-top: 29%;
+}
+#about{
+    display: flex;
+}
+.about_img{
+    margin-top: 5px;
+}
+.about_words{
+    text-align: center;
+}
+.abt_wrds{
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#skills{
+    text-align: center;
+}
+
+.progress_bar{
+    width: 50%;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+i:hover{
+    color: cadetblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: ease;
+}
+.fa-brands{
+    font-size: 100px;
+}
+.ic1{
+    padding: 5%;
+}
+.ic2{
+    padding: 5%;
+}
+.ic3{
+    padding: 5%;
+}
+.ic4{
+    padding: 5%;
+}
+.ic5{
+    padding: 5%;
+}
+section{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
