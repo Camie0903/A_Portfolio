@@ -10,6 +10,7 @@
     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
     crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/5d5fd894ec.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-dark fixed-top navbar-expand-md">
@@ -130,6 +131,7 @@
         </section>
         <!-- END OF ABOUT -->
 
+        <!-- SKILLS -->
         <section id="skills">
             <h1>Skills</h1>
             <div>
@@ -216,11 +218,83 @@
         <!-- END OF SKILLS -->
          
         <!-- RESUME -->
-    <section id="resume">Resume</section>
+    <section id="resume">
+        <h1>Resume</h1>
+
+        <div class="container">
+            <div class="timeline">
+                <div data-aos="fade-right">
+                    <div class="timeline-row">
+                        <div class="timeline-time">
+                            2015-2020
+                        </div>
+                        <div class="timeline-content">
+                            <i class="icon-attachment"></i>
+                            <h4>Voortrekker High School</h4>
+                            <p>I matriculated at Voortrekker High in Kenilworth, and that was where I found my passion for Web Development.</p>
+                            <div class="thumbs">
+                                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+                            </div>
+                            <div class="">
+                                <span class="badge badge-pill">Student</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="timeline-row">
+                        <div class="timeline-time">
+                            Feb 2021-Apr 2021
+                        </div>
+                        <div class="timeline-content">
+                            <i class="icon-code"></i>
+                            <h4>CartRun</h4>
+                            <p>
+                                I was an instore shopper for people that couldn't make it to go to shops during COVID19.
+                            </p>
+                            <div class="thumbs">
+                                <div class="thumbs">
+                                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+                            </div>
+                            </div>
+                            <div class="">
+                                <span class="badge badge-pill">Retail</span>
+                                <span class="badge badge-pill">Admin</span>
+                            </div>
+                        </div>
+                    </div>  
+                        
+                    <div data-aos="fade-right">
+                    <div class="timeline-row">
+                        <div class="timeline-time">
+                            Mar 2022- Present
+                        </div>
+                        <div class="timeline-content">
+                            <i class="icon-turned_in_not"></i>
+                            <h4 class="resu_time">Life Choices Academy</h4>
+                            <p>At Life Choices I found my strengths and weaknesses in coding, and today I can say it was a very wise and good choice to study at Life Choices.</p>
+                            <div class="thumbs">
+                                <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+                            </div>
+                            <div>
+                                <span class="badge badge-pill">Student</span>
+                                <span class="badge badge-pill">Full Stack Web Developer</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+            
+                </div>
+                </div>
+            </div>
+
+    </section>
 
         <!-- END OF RESUME -->
 
     <section id="projects">
+      <div class="pjt_contain"> 
         <h1>Projects</h1>
         <div class="container_proj">
             <div class="overlay">
@@ -228,6 +302,7 @@
                 <p class="titlesP">Calculator</p>    
             </div>
             <div class="button"><a href="#"> BUTTON </a></div>
+            <div class="button"><a href="https://steady-salmiakki-c16278.netlify.app/"> LIVE </a></div>
         </div>
 
         <div class="container_proj2">
@@ -239,8 +314,51 @@
             <div class="button"><a href="https://github.com/Camie0903/HolidayDestination"> GITHUB </a></div><br>
             <div class="button"><a href="https://steady-salmiakki-c16278.netlify.app/"> LIVE </a></div>
         </div>
+      </div>   
     </section>
-    <section id="testimonials">Testimonials</section>
+    <section id="testimonials">
+        <h1>Testimonials</h1>
+
+        <div id="carouselExampleCaptions" class="carousel_slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/Sunethia (1).JPG" class="testi d-block w-50" alt="Sunethia">
+                <div class="carousel-caption d-none d-md-block text-dark">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/jason.jpg" class="testi d-block w-40 " alt="jason">
+                <div class="carousel-caption d-none d-md-block text-dark">
+                  <h5>Jason Wandrag</h5>
+                  <p>"Cameron Tamboer seems to be doing well for her abilities. I love the effort she puts forth whenever she participates during my lessons. With the right guidance, Cameron Tamboer will improve rapidly."</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Chanique (2).JPG" class=" testi d-block w-50" alt="Chanique">
+                <div class="carousel-caption d-none d-md-block text-dark">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
     <section id="contact">Contact</section>
     <section id="footer"></section>
 
@@ -249,6 +367,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
 crossorigin="anonymous"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
